@@ -11,3 +11,22 @@ const App = () => {
 };
 
 export default App;
+
+
+
+App.css
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  color: blue;
+  font-size: 2rem;
+}
+
+.description {
+  color: gray;
+  font-size: 1.2rem;
+}
