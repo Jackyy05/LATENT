@@ -1,0 +1,18 @@
+import React from 'react';
+import { Button, TextField, AppBar, Toolbar, Typography } from '@mui/material';
+
+const MUIExample = () => {
+  return (
+    <div>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6">MUI Components</Typography>
+        </Toolbar>
+      </AppBar>
+      <TextField label="Enter Text" variant="outlined" style={{ margin: '20px' }} />
+      <Button variant="contained" color="primary">Click Me</Button>
+    </div>
+  );
+};
+
+export default MUIExample;
