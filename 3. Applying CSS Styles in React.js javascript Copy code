@@ -1,0 +1,13 @@
+import React from 'react';
+import './App.css'; // Ensure this file exists in the project directory
+
+const App = () => {
+  return (
+    <div className="container">
+      <h1 className="title">Welcome to My Styled App</h1>
+      <p className="description">This is a demo of CSS styling in React.</p>
+    </div>
+  );
+};
+
+export default App;
