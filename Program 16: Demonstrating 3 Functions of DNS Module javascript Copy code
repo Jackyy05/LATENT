@@ -1,0 +1,5 @@
+const dns = require("dns");
+
+dns.lookup("example.com", (err, address) => console.log("Lookup Address:", address)); // Lookup
+dns.resolve4("example.com", (err, addresses) => console.log("IPv4 Addresses:", addresses)); // Resolve IPv4
+dns.reverse("8.8.8.8", (err, hostnames) => console.log("Reverse DNS:", hostnames)); // Reverse DNS lookup
