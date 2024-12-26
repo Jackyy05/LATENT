@@ -1,0 +1,6 @@
+// console global object example
+console.log("This is a log message."); // Log a message
+console.error("This is an error message."); // Display an error message
+console.warn("This is a warning message."); // Display a warning message
+console.info("This is an informational message."); // Display information
+console.table([{ name: "Alice", age: 25 }, { name: "Bob", age: 30 }]); // Display a table
