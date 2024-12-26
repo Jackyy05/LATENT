@@ -1,0 +1,5 @@
+console.log("Current Directory:", process.cwd()); // Get current working directory
+console.log("Node.js Version:", process.version); // Get Node.js version
+console.log("Platform:", process.platform); // Get platform
+console.log("Environment Variables:", process.env); // Get environment variables
+process.on("exit", (code) => console.log("Process exit event with code:", code)); // Exit event
