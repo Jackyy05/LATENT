@@ -1,0 +1,7 @@
+const path = require("path");
+
+console.log("Base Name:", path.basename(__filename)); // Get base name
+console.log("Directory Name:", path.dirname(__filename)); // Get directory name
+console.log("File Extension:", path.extname(__filename)); // Get file extension
+console.log("Join Path:", path.join(__dirname, "test", "file.txt")); // Join paths
+console.log("Resolve Path:", path.resolve("file.txt")); // Resolve path
