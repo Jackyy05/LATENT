@@ -1,0 +1,18 @@
+Arithmatic.js
+
+
+module.exports = {
+  add: (a, b) => a + b,
+  subtract: (a, b) => a - b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) => (b !== 0 ? a / b : "Division by zero"),
+};
+
+app.js
+
+const arithmetic = require("./arithmetic");
+
+console.log("Addition:", arithmetic.add(10, 5));
+console.log("Subtraction:", arithmetic.subtract(10, 5));
+console.log("Multiplication:", arithmetic.multiply(10, 5));
+console.log("Division:", arithmetic.divide(10, 5));
