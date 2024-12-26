@@ -1,0 +1,8 @@
+const fs = require("fs");
+
+const writeStream = fs.createWriteStream("output.txt");
+
+writeStream.write("This is some data.\n");
+writeStream.write("This is more data.\n");
+writeStream.end();
+console.log("Data written successfully.");
